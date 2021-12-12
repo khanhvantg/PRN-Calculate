@@ -8,7 +8,7 @@ namespace demoRPN
 {
     interface iStack<T>
     {
-        void Push(T elem);
+        void Push(T value);
         T Pop();
         T Peek();
     }

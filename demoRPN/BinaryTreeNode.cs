@@ -6,18 +6,20 @@ using System.Threading.Tasks;
 
 namespace demoRPN
 {
-    public class BinaryTreeNode
+    class BinaryTreeNode
     {
         public BinaryTreeNode LeftChild;
         public BinaryTreeNode RightChild;
-        public char Value;
-        public bool IsLeaf
+        public string Value;
+        public BinaryTreeNode(string value)
         {
-            get { return this.LeftChild == null && this.RightChild == null; }
+            this.Value = value;
         }
-        public BinaryTreeNode(char value)
+        public static bool IsLeaf(BinaryTreeNode node)
         {
-            Value = value;
+            if (node.LeftChild == null && node.RightChild == null)
+                return true;
+            return false;
         }
     }
 }
