@@ -21,5 +21,8 @@ Sau khi thực hiện thuật toán trên, ta sẽ duyệt cây theo Post-Order 
 
 Duới đây là mô tả thuật toán:\
   – Ví dụ ta có biểu thức: a+b-(c+d*e-g)-f/h\
-  – Ta tiến hành duyệt biểu thức từ trái sang phải
-https://github.com/khanhvantg/PRN-Calculate/issues/1#issue-1898919156
+  – Ta tiến hành duyệt biểu thức từ trái sang phải\
+<img src="https://user-images.githubusercontent.com/92866486/268369489-a36754f8-e565-4ffd-8d46-c55dcd1a51a3.png"/>
+
+Demo thực tế:\
+<img src="https://user-images.githubusercontent.com/92866486/268369496-b163f249-dbc5-4818-93f7-507d4a44fd31.png"/>
